@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Mortgage Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <style type="text/css">
         #Header {
             font-weight: 700;
@@ -18,7 +19,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div class="calculator">
+    <div>
     
            <h1 style="text-align:center;">Cristian's Mortgage Calculator </h1>
                
