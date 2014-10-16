@@ -75,6 +75,9 @@ Partial Class _Default
             tRow("New Balance") = String.Format("{0:C}", nBalance)
             loanAmortTbl.Rows.Add(tRow)
 
+            'Calculate date 
+            tableDate = tableDate.AddMonths(1)
+
             'Loops to next counterStart (Continues loop until counterStart requirements are met (loanTerm)).
         Next counterStart
 
@@ -101,7 +104,4 @@ Partial Class _Default
 
     End Sub
 
-    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-
-    End Sub
 End Class
